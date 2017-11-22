@@ -406,7 +406,7 @@ public class EditCodeView extends View
     @Override
     public InputConnection onCreateInputConnection(EditorInfo outAttrs) {
 
-        outAttrs.inputType = InputType.TYPE_CLASS_NUMBER;
+        outAttrs.inputType = InputType.TYPE_CLASS_TEXT;
         outAttrs.imeOptions = EditorInfo.IME_ACTION_DONE;
         outAttrs.initialSelStart = 0;
 
